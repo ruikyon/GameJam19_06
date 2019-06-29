@@ -39,13 +39,6 @@ public class Bar : MonoBehaviour
         {
             state = -1;
         }
-
-        
-
-        if (!isLeft)
-        {
-            Debug.Log(transform.eulerAngles.z);
-        }
     }
 
     private void FixedUpdate()
